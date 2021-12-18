@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
 
         list.add(1);
         list.add(2);
@@ -19,7 +19,7 @@ public class Main {
         list.add(-1);
         list.add(-2);
 
-        String result = Counter.countElements(list);
+        String result = Counter.countDuplicates(list);
         System.out.println(result);
     }
 
